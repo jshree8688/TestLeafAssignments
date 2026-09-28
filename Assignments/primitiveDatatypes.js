@@ -6,23 +6,23 @@ contactNumber // Number
 knowsAutomation // Boolean
 usesPlaywright // Undefined (not assigned)*/
 
-let userName='Jayashree Ravi'
+let userName = 'Jayashree Ravi'
 console.log(userName);
 console.log(typeof userName);
 
-let organization='3i Infotech'
+let organization = '3i Infotech'
 console.log(organization);
 console.log(typeof organization);
 
-let contactNumber='9791525440'
+let contactNumber = 9791525440
 console.log(contactNumber);
 console.log(typeof contactNumber);
 
-let knowsAutomation=true
+let knowsAutomation = true
 console.log(knowsAutomation);
 console.log(typeof knowsAutomation);
 
-let usesPlaywright=undefined
+let usesPlaywright;
 console.log(usesPlaywright);
 console.log(typeof usesPlaywright);
 

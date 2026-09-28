@@ -1,17 +1,16 @@
 //Learn to implement a JavaScript function determining whether a given number is odd or even
 
 
-function isOddOrEven(num) 
-{
-    if(num%2==0)
-    {
-        console.log("Given Number is Even Number");
-        
+function isOddOrEven(num) {
+    if (num % 2 == 0) {
+        return "Even";
+
     }
-    else
-    {
-        console.log("Given Number is 0dd Number");
+    else {
+        return "Odd";
     }
 }
 
-isOddOrEven(12);
+let num = 10;
+
+console.log(isOddOrEven(num));
